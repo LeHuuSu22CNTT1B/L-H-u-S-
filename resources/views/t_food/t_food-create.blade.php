@@ -34,7 +34,7 @@
   </head>
   <body>
     <div class="container">
-        <h2 class="my-4">Tạo mới xe</h2>
+        <h2 class="my-4">Tạo sản phẩm mới</h2>
         <form action="{{ route('t_foods.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
             
